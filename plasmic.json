@@ -1,0 +1,82 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "uSM9P6i3iQ41KMPJgZAYZc",
+      "projectApiToken": "rAhdmRHyGannGaXZLN7UwaVpcljFHxdCkLBTOIsi5vodfePwAvyVVH8FroBnVPc1uHb9Jm7rExMlfBVnw",
+      "projectName": "Copy of aquila-login",
+      "version": "latest",
+      "cssFilePath": "plasmic/copy_of_aquila_login/plasmic_copy_of_aquila_login.module.css",
+      "components": [
+        {
+          "id": "aNeceA9XOnEB",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "uSM9P6i3iQ41KMPJgZAYZc",
+          "renderModuleFilePath": "plasmic/copy_of_aquila_login/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "Homepage.jsx"
+          },
+          "cssFilePath": "plasmic/copy_of_aquila_login/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [],
+      "images": [
+        {
+          "id": "QNYFEdXjwVQNd",
+          "name": "Image Pasted at 2023-5-26 13-10.png",
+          "filePath": "plasmic/copy_of_aquila_login/images/imagePastedAt20235261310Png.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "f8HeFRMnM8_xW",
+          "name": "PlasmicHead",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "NCEsxBstY3oHD",
+          "name": "Fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "uwMTTd-3vrgs3",
+        "name": "Screen",
+        "projectId": "uSM9P6i3iQ41KMPJgZAYZc",
+        "contextFilePath": "plasmic/copy_of_aquila_login/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "cliVersion": "0.1.285",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.285/dist/plasmic.schema.json"
+}
